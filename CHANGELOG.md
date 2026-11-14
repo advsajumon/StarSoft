@@ -1,4 +1,7 @@
-﻿## [4.0.24] - 14-Nov-2026 06:33 PM
+﻿## [4.0.25] - 14-Nov-2026 10:39 PM
+- Maintenance update and stability enhancements.
+
+## [4.0.24] - 14-Nov-2026 06:33 PM
 - Maintenance update and stability enhancements.
 
 ## [4.0.23] - 14-Nov-2026 06:14 PM
