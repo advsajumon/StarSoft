@@ -1,11 +1,11 @@
 {
-  "version": "4.0.25",
-  "release_date": "14-Nov-2026 10:39 PM",
+  "version": "4.0.30",
+  "release_date": "15-Nov-2026 01:08 AM",
   "download_url": "https://raw.githubusercontent.com/advsajumon/StarSoft/main/StarSoft.exe",
-  "sha256": "158c64da187fc4a273c7112409f558feaaa476756805cf36e7de32088ce2b5a4",
-  "file_size": 2701312,
-  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC4yNSIsInJlbGVhc2VfZGF0ZSI6IjE0LU5vdi0yMDI2IDEwOjM5IFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiIxNThjNjRkYTE4N2ZjNGEyNzNjNzExMjQwOWY1NThmZWFhYTQ3Njc1NjgwNWNmMzZlN2RlMzIwODhjZTJiNWE0IiwiZmlsZV9zaXplIjoyNzAxMzEyfQ.53rwvITANc7X3P2reSItBUdW5c7yTm4aib8AK4JgqTNs7VkZ0ZtB2QODYNnItnxgCMoQ430kLXvO8r7ZLMytAg",
-  "release_notes": "Star Soft Enterprise v4.0.25 Release Notes (14-Nov-2026 10:39 PM):\n- Maintenance update and stability enhancements.",
+  "sha256": "757aed3f0549efa3dcf6ba512eab173d15e5175e2969d7245119a8af3498de00",
+  "file_size": 2720768,
+  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC4zMCIsInJlbGVhc2VfZGF0ZSI6IjE1LU5vdi0yMDI2IDAxOjA4IEFNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI3NTdhZWQzZjA1NDllZmEzZGNmNmJhNTEyZWFiMTczZDE1ZTUxNzVlMjk2OWQ3MjQ1MTE5YThhZjM0OThkZTAwIiwiZmlsZV9zaXplIjoyNzIwNzY4fQ.eM_98pzk4tK6J8n5R7MNvhsoAdMOXa3gbXy4zLu6YjPLuWK7W6WVsX-sZgo-NMZIVe-60JuVO8V7PpVJort_Dw",
+  "release_notes": "Star Soft Enterprise v4.0.30 Release Notes (15-Nov-2026 01:08 AM):\n- Maintenance update and stability enhancements.",
   "channel": "Official Enterprise Stable",
   "manual_zip_url": ""
 }
