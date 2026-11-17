@@ -1,4 +1,16 @@
-﻿## [4.0.36] - 16-Nov-2026 03:50 PM
+﻿## [4.0.40] - 17-Nov-2026 09:54 AM
+- Maintenance update and stability enhancements.
+
+## [4.0.39] - 17-Nov-2026 09:20 AM
+- Maintenance update and stability enhancements.
+
+## [4.0.38] - 17-Nov-2026 09:18 AM
+- Maintenance update and stability enhancements.
+
+## [4.0.37] - 16-Nov-2026 06:51 PM
+- Maintenance update and stability enhancements.
+
+## [4.0.36] - 16-Nov-2026 03:50 PM
 - Maintenance update and stability enhancements.
 
 ## [4.0.35] - 16-Nov-2026 02:35 PM
