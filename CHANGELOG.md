@@ -1,5 +1,9 @@
-﻿## [4.0.60] - 18-Nov-2026 03:18 PM
-- Maintenance update and stability enhancements.
+﻿## [4.0.61] - 18-Nov-2026 04:45 PM
+- Added embedded Apple Liquid-Glass Browser Web Client (`http://<Server-IP>:<Port>/`) served directly from Obfuscar-protected `StarSoft.exe` memory with runtime JS source encryption, GZip compression, SF-Symbols vector icons, 4 glass themes, POS billing & Original/Duplicate invoice printing, Recent Bills search/reprint, Credit Reminders, Combined Ledger, 55+ HSN Master, GSTR-1/GSTR-2 reports, and live `WEB` terminal telemetry in Desktop Employee Monitor.
+
+## [4.0.60] - 18-Nov-2026 03:18 PM
+- Automatic background `--mobile-server` port takeover on startup/update, persistent `mobile_api_sessions` across server restarts, HSN/SAC Master catalog sync (`55+` codes), resilient Recent Bills Open/Reprint (`Original` / `Duplicate`) fallback, Monitor Email moved into Settings, and all server connection details hidden from mobile users.
+
 ## [4.0.59] - 18-Nov-2026 01:15 PM
 - Added `/api/v1/invoices/detail` and date/phone search support on `/api/v1/invoices`, hardened `/api/v1/ledger` aliases, and bumped Android OTA channel to `v1.5.0` (Build 7).
 
