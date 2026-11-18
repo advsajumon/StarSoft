@@ -1,11 +1,11 @@
 {
-  "version": "4.0.59",
-  "release_date": "18-Nov-2026 01:15 PM",
+  "version": "4.0.60",
+  "release_date": "18-Nov-2026 03:18 PM",
   "download_url": "https://raw.githubusercontent.com/advsajumon/StarSoft/main/StarSoft.exe",
-  "sha256": "6efac00c03632de3d323ede08d125186f4c84bff0bb417c7ff80cf512f4f3c38",
-  "file_size": 2982912,
-  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC41OSIsInJlbGVhc2VfZGF0ZSI6IjE4LU5vdi0yMDI2IDAxOjE1IFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI2ZWZhYzAwYzAzNjMyZGUzZDMyM2VkZTA4ZDEyNTE4NmY0Yzg0YmZmMGJiNDE3YzdmZjgwY2Y1MTJmNGYzYzM4IiwiZmlsZV9zaXplIjoyOTgyOTEyfQ.rEZaSWUQVcbKwH2MSAAIoeEAjhFjnk5VHPLhC9jl7YGrFzYo_yPxoO_1clPzFLYsLk9pjsBLdj4cuczEHDPoCQ",
-  "release_notes": "Star Soft Enterprise v4.0.59 Release Notes (18-Nov-2026 01:15 PM):\n- Enhanced Mobile API Bridge for Recent Bills search (Customer Name, Mobile No, Date Range), Invoice Detail Reprint & Combined Ledger reliability.",
+  "sha256": "66128aea95096f28925561d3ffa18c38d71dd75766b40392a43e27fd8fbee232",
+  "file_size": 2990592,
+  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42MCIsInJlbGVhc2VfZGF0ZSI6IjE4LU5vdi0yMDI2IDAzOjE4IFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI2NjEyOGFlYTk1MDk2ZjI4OTI1NTYxZDNmZmExOGMzOGQ3MWRkNzU3NjZiNDAzOTJhNDNlMjdmZDhmYmVlMjMyIiwiZmlsZV9zaXplIjoyOTkwNTkyfQ.3L3k5xUErmXiYnO3G6ho0CE0qUI9-JtfBWOGxk2yAmAVlUDj8RJYAP-9ByYxcMdAhvuJSr_c5kJ9ZYBX_Gf5CQ",
+  "release_notes": "Star Soft Enterprise v4.0.60 Release Notes (18-Nov-2026 03:18 PM):\n- Maintenance update and stability enhancements.",
   "channel": "Official Enterprise Stable",
   "manual_zip_url": ""
 }

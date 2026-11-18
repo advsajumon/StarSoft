@@ -1,4 +1,6 @@
-﻿## [4.0.59] - 18-Nov-2026 01:15 PM
+﻿## [4.0.60] - 18-Nov-2026 03:18 PM
+- Maintenance update and stability enhancements.
+## [4.0.59] - 18-Nov-2026 01:15 PM
 - Added `/api/v1/invoices/detail` and date/phone search support on `/api/v1/invoices`, hardened `/api/v1/ledger` aliases, and bumped Android OTA channel to `v1.5.0` (Build 7).
 
 ## [4.0.58] - 18-Nov-2026 12:37 PM
