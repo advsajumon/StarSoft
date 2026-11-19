@@ -1,4 +1,11 @@
-﻿## [4.0.66] - 19-Nov-2026 12:20 PM
+﻿## [4.0.67] - 19-Nov-2026 01:30 PM
+- **Desktop 1:1 Product / Item Master in Browser Web Client (`v1.8.2`):** Added complete Desktop `ItemMasterForm` feature parity: Auto Item Code & Barcode generation + Printable Barcode Label sticker preview, Category Tag + Auto-HSN matching, Brand/Supplier/HSN inline Quick-Add (`+`) modals, Include/Exclude GST condition toggle with live 5-column Tax Breakdown card (`Original Price`, `CGST`, `SGST`, `Total GST`, `Final Total`), **Track Serial / IMEI** with full **`# S/N List` Serial Numbers Manager** (scan/single add, bulk paste, live count, sold lock, saved via API), and Active/Inactive status toggle & filter.
+- **Popups Never Close on Outside Click (Web `v1.8.2` & Android `v1.8.2` Build `12`):** Removed backdrop outside-click closing on all modals across Browser Web Client and enforced `DialogProperties(dismissOnClickOutside = false)` across all Android dialogs so modals only close via explicit Close/Cancel buttons.
+- **Bill Settlement & Credit Collection Official Receipt Studio (`4.0.67` / Web `v1.8.2` / Android `v1.8.2` Build `12`):**
+  - **Desktop `.exe` (`BillSettlementForm` & `PaymentReminderPopupForm`):** Collecting full or partial credit payments immediately opens `PaymentReceiptActionDialog` (`Thermal 80mm`, `A4 Voucher`, `WhatsApp`, `SMS`), plus a **`Receipt`** reprint button on every historical settlement row.
+  - **Browser Web Client (`v1.8.2`) & Android App (`v1.8.2` Build `12`):** Collecting any bill settlement or credit reminder payment returns an official server-generated receipt (`SET-...` / `REM-...`) and immediately opens the Receipt Print/Share dialog (`A4` / `A5` / `80mm` / `58mm` + Company Logo + Invoice # + Bill Total + Prev/Remaining Balance), plus **`Receipt`** reprint action on Settlement Payment History rows.
+
+## [4.0.66] - 19-Nov-2026 12:20 PM
 - **Bill Settlement Direct Navigation (Web `v1.8.1`):** Clicking **`Settle Due`** from Recent Bills now opens the dedicated **`Bill Settlement`** module with that invoice pre-selected in the Checkout Settlement Dock and its settlement history loaded (no browser `prompt()` dialog).
 - **Zero Chrome `prompt()` Dialogs (Web `v1.8.1`):** Replaced every remaining browser `prompt()` dialog (**Product Master Add/Edit**, **HSN/Brand/Tax/Location Masters**, **Credit Reminder Collect Due & Reschedule**, and **POS Quantity Entry**) with styled Apple Liquid-Glass modals.
 - **Full Master Print Setup & Company Logo Sync (`4.0.66` / Web `v1.8.1` / Android `v1.8.1` Build `11`):**

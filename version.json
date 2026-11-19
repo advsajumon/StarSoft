@@ -1,11 +1,11 @@
 {
-  "version": "4.0.66",
-  "release_date": "19-Nov-2026 12:20 PM",
+  "version": "4.0.67",
+  "release_date": "19-Nov-2026 01:30 PM",
   "download_url": "https://raw.githubusercontent.com/advsajumon/StarSoft/main/StarSoft.exe",
-  "sha256": "f29ed33806e7748ce9f2bdddc7c466ff9b4ff6c7865b88883373bcacdd1f1a28",
-  "file_size": 3320832,
-  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42NiIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDEyOjIwIFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiJmMjllZDMzODA2ZTc3NDhjZTlmMmJkZGRjN2M0NjZmZjliNGZmNmM3ODY1Yjg4ODgzMzczYmNhY2RkMWYxYTI4IiwiZmlsZV9zaXplIjozMzIwODMyfQ.dOJzBdLGLxL632XjSiG551vGoWLeZACW4BEwStcr3aq_OIKbi-ebf-bQMHe2OcHdxTrNwsvH2ZjF2y5SN-Q1Bg",
-  "release_notes": "Star Soft Enterprise v4.0.66 Release Notes (19-Nov-2026 12:20 PM):\n- Recent Bills 'Settle Due' in Browser Web Client v1.8.1 now opens the dedicated Bill Settlement module directly with the selected invoice & payment history loaded.\n- Eliminated all browser prompt() dialogs across Web Client v1.8.1 (Product Add/Edit, HSN/Brand/Tax/Location Masters, Credit Reminder Collect/Reschedule, and POS Item Quantity) using styled Apple Liquid-Glass modals.\n- Full Server Master Print Setup & Company Logo synchronization across Browser Web Client v1.8.1, Android v1.8.1 (Build 11), and --mobile-server (5-sec PostgreSQL refresh for company logo, print layouts, thermal 80mm/58mm / A4 / A5 format, offline UPI QR /qr.png, and heartbeat print_profile_sig auto-resync).",
+  "sha256": "61a564a37c1a68c6a187e1bb16551c5c38c4ffca26bb6db8e2fd697c9edf744d",
+  "file_size": 3367936,
+  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42NyIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDAxOjMwIFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI2MWE1NjRhMzdjMWE2OGM2YTE4N2UxYmIxNjU1MWM1YzM4YzRmZmNhMjZiYjZkYjhlMmZkNjk3YzllZGY3NDRkIiwiZmlsZV9zaXplIjozMzY3OTM2fQ.zHD-7QN9fpG4kdPRsmeDPs28KHKXTOcJMSQhFnYGi8ONIkXhhyxfEmBecIXnv5BE0uTGqTR0r1StvRimSn03DQ",
+  "release_notes": "Star Soft Enterprise v4.0.67 Release Notes (19-Nov-2026 01:30 PM):\n- Browser Web Client v1.8.2 now mirrors Desktop Item Master 1:1: Auto Code & Barcode Gen + Printable Label preview, Smart Auto-HSN matching, Brand/Supplier/HSN Quick-Add, Include/Exclude GST live 5-column Breakdown, Serial/IMEI Manager (# S/N List) saved to API, and Active/Inactive status filter.\n- All modal popups across Browser Web Client v1.8.2 and Android v1.8.2 (Build 12) no longer close when tapping outside the modal backdrop (only via explicit Close/Cancel buttons).\n- Official Bill Settlement & Credit Reminder Receipts across Desktop .exe, Web v1.8.2, and Android v1.8.2 (Build 12): full & partial collections immediately open the Receipt Print/Share dialog and support Receipt reprinting from Settlement History.",
   "channel": "Official Enterprise Stable",
   "manual_zip_url": ""
 }
