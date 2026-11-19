@@ -1,4 +1,10 @@
-﻿## [4.0.64] - 19-Nov-2026 10:20 AM
+﻿## [4.0.65] - 19-Nov-2026 11:15 AM
+- **Separate 3 Server Ports:** Separated PostgreSQL Database (`62126`), Android Mobile API Bridge (`5088`), and Browser Web Client Portal (`5090` via `webclientport` in `config.ini`) with updated `StarPortConfig.exe` and `StarMaster.exe` port configurator controls, distinct-port validation, firewall rules, and HTTP checks.
+- **Browser Web Client `v1.8.0` Parity & Cleanup:** Removed `"Monitor Email ID & Web Client Preferences"` from Web Settings, excluded Browser Web sessions from Desktop Employee Monitor, renamed `"POS Billing"` to `"Inventory Billing"`, and added full Desktop-parity modules (**Customer Profile 360°** with Payment Receipt, **Supplier Profile 360°** with Payment Voucher, **Bill Settlement & History**, and **User Profile**).
+- **Conflict-Free Live Next Bill Number:** Added real-time `next_invoice_no` invalidation on save and live `/api/v1/invoices/next-no` polling on Web (`v1.8.0`) and Android (`v1.8.0` / Build 10).
+- **Per-Platform Idle Auto-Close (`5` mins default):** Added independent **Desktop Auto-Close**, **Browser Web Timeout**, and **Android App Timeout** fields in User Creation (`UserManagementForm`), with clean idle auto-close enforcement across Desktop, Browser Web, and Android.
+
+## [4.0.64] - 19-Nov-2026 10:20 AM
 - Made Main Desktop `.exe` the complete Master Controller for every screen, menu, POS mode, dealer pricing, reprint, ledger, report, master catalog, theme/calculator, print layout, and settings action in both the **Browser Web Client (`v1.7.0`)** and **Android Mobile App (`v1.7.0` / Build 9)**.
 - Added `56` platform-specific Policies (`28` `POL_ANDROID_*` and `28` `POL_WEB_*`) and `56` granular User Privileges (`701..728` `[ANDROID]` and `801..828` `[WEB]`) with live server-side API + heartbeat policy enforcement (including Admin override when a platform policy is turned OFF).
 - Added color-coded platform identification in Desktop Policies (`PoliciesConfigForm`, `EditPolicyDialog`), User Management (`UserManagementForm`), Browser Web Client Settings, and Android App Policies/User Editor (**Emerald Green** for Android App, **Royal Blue** for Browser Web Client, **Slate** for Desktop).

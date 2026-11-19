@@ -1,11 +1,11 @@
 {
-  "version": "4.0.64",
-  "release_date": "19-Nov-2026 10:20 AM",
+  "version": "4.0.65",
+  "release_date": "19-Nov-2026 11:15 AM",
   "download_url": "https://raw.githubusercontent.com/advsajumon/StarSoft/main/StarSoft.exe",
-  "sha256": "6451e6b13cb6e7c32fb7fa8b9204748be50788af181bca511e59eeb0d1418cee",
-  "file_size": 3204608,
-  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42NCIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDEwOjIwIEFNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI2NDUxZTZiMTNjYjZlN2MzMmZiN2ZhOGI5MjA0NzQ4YmU1MDc4OGFmMTgxYmNhNTExZTU5ZWViMGQxNDE4Y2VlIiwiZmlsZV9zaXplIjozMjA0NjA4fQ.a4ScU6ELinFaUfEB-TqX1HaQLtqI5IE2xM8pv8BI8TNUOHKucuMCsurSdF34Pj_X4f4DwMLku2hB8TGhmmFBCw",
-  "release_notes": "Star Soft Enterprise v4.0.64 Release Notes (19-Nov-2026 10:20 AM):\n- Desktop Master Control across all 28 modules for both Browser Web Client (v1.7.0) and Android Mobile App (v1.7.0 / Build 9), adding 56 platform policies (POL_ANDROID_* & POL_WEB_*), 56 granular privileges (701..728 & 801..828), live Admin-override enforcement, and Emerald Green (Android) / Royal Blue (Web) color-coding.",
+  "sha256": "dd26e852e19b4bff27b2285ee0d6a8a8f6e60facb2a1373d130cf5da6372fa34",
+  "file_size": 3265024,
+  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42NSIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDExOjE1IEFNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiJkZDI2ZTg1MmUxOWI0YmZmMjdiMjI4NWVlMGQ2YThhOGY2ZTYwZmFjYjJhMTM3M2QxMzBjZjVkYTYzNzJmYTM0IiwiZmlsZV9zaXplIjozMjY1MDI0fQ.Fl-CcYKJ2eVZdlZ-NY3C8bGcymLbnj5ElDnDNH43H9TVvCbvBBlkGZdrO72W3N9X_ggCsRNGVhEh6riTY-uGCQ",
+  "release_notes": "Star Soft Enterprise v4.0.65 Release Notes (19-Nov-2026 11:15 AM):\n- Separated DB (62126), Android API (5088), and Browser Web Client (5090) ports across StarSoft Server, StarPortConfig, and StarMaster.\n- Added Customer Profile (360° + Collect Payment Receipt), Supplier Profile (+ Pay Voucher), Bill Settlement (with History & Full Balance dock), and User Profile to Browser Web Client v1.8.0.\n- Removed Web Monitor Email settings card and excluded Browser Web clients from Desktop Employee Monitor.\n- Renamed POS Billing to Inventory Billing across Desktop, Web, and Android (v1.8.0 / Build 10).\n- Added conflict-free live Next Bill No sync and configurable per-platform Idle Auto-Close timeouts (default 5 mins).",
   "channel": "Official Enterprise Stable",
   "manual_zip_url": ""
 }
