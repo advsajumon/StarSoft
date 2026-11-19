@@ -1,4 +1,7 @@
-﻿## [4.0.61] - 18-Nov-2026 04:45 PM
+﻿## [4.0.62] - 18-Nov-2026 05:10 PM
+- Fixed Browser Web Client login `fetch()` `RequestInit.headers` non-ISO-8859-1 error by replacing Unicode bullet `•` in `X-Star-Device-Os` with ASCII `-`, adding an `asciiHdr()` sanitizer across all `X-Star-*` HTTP headers, and exposing `window.STATE` and `window.selectRepCat` for inline UI handlers.
+
+## [4.0.61] - 18-Nov-2026 04:45 PM
 - Added embedded Apple Liquid-Glass Browser Web Client (`http://<Server-IP>:<Port>/`) served directly from Obfuscar-protected `StarSoft.exe` memory with runtime JS source encryption, GZip compression, SF-Symbols vector icons, 4 glass themes, POS billing & Original/Duplicate invoice printing, Recent Bills search/reprint, Credit Reminders, Combined Ledger, 55+ HSN Master, GSTR-1/GSTR-2 reports, and live `WEB` terminal telemetry in Desktop Employee Monitor.
 
 ## [4.0.60] - 18-Nov-2026 03:18 PM

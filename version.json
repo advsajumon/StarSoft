@@ -1,11 +1,11 @@
 {
-  "version": "4.0.61",
-  "release_date": "18-Nov-2026 04:45 PM",
+  "version": "4.0.62",
+  "release_date": "18-Nov-2026 05:10 PM",
   "download_url": "https://raw.githubusercontent.com/advsajumon/StarSoft/main/StarSoft.exe",
-  "sha256": "d36c309a312af4788885ce62b70dd2e6942252ba5bed47962d93ee50f6621424",
-  "file_size": 3109888,
-  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42MSIsInJlbGVhc2VfZGF0ZSI6IjE4LU5vdi0yMDI2IDA0OjQ1IFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiJkMzZjMzA5YTMxMmFmNDc4ODg4NWNlNjJiNzBkZDJlNjk0MjI1MmJhNWJlZDQ3OTYyZDkzZWU1MGY2NjIxNDI0IiwiZmlsZV9zaXplIjozMTA5ODg4fQ.tGqve2h64Ey1kYU3fVGfiurbMGvxgd3zxvTWugGw61drFI-nrwae1ct1BUD-XyEv07a4MnLt8Vgd7zPcsXI2DQ",
-  "release_notes": "Star Soft Enterprise v4.0.61 Release Notes (18-Nov-2026 04:45 PM):\n- Added embedded Apple Liquid-Glass Browser Web Client (http://<Server-IP>:<Port>/) served directly from protected StarSoft.exe memory with runtime JS source encryption, GZip compression, SF-Symbols vector icons, POS billing, Original/Duplicate invoice printing, Recent Bills search/reprint, Credit Reminders, Combined Ledger, 55+ HSN Master, GSTR-1/GSTR-2 reports, and live WEB terminal telemetry in Employee Monitor.",
+  "sha256": "fea09711eb9c4b7dd85137d10653ede1af90098427162afbbb77039c64da043f",
+  "file_size": 3110400,
+  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42MiIsInJlbGVhc2VfZGF0ZSI6IjE4LU5vdi0yMDI2IDA1OjEwIFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiJmZWEwOTcxMWViOWM0YjdkZDg1MTM3ZDEwNjUzZWRlMWFmOTAwOTg0MjcxNjJhZmJiYjc3MDM5YzY0ZGEwNDNmIiwiZmlsZV9zaXplIjozMTEwNDAwfQ.i2skIKC9Pu0N52S2NrCY74M4rous3D-sz6JZ6NYjNJ0XbLG2fXWiKqaKCQuSwOkgmNh77amUuiajZRgd88SsDw",
+  "release_notes": "Star Soft Enterprise v4.0.62 Release Notes (18-Nov-2026 05:10 PM):\n- Fixed Browser Web Client login fetch() RequestInit headers ISO-8859-1 error by sanitizing all X-Star-Device-* and Authorization headers to pure ASCII and exposing window.STATE for inline UI handlers.",
   "channel": "Official Enterprise Stable",
   "manual_zip_url": ""
 }
