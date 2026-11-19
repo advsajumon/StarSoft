@@ -1,4 +1,12 @@
-﻿## [4.0.65] - 19-Nov-2026 11:15 AM
+﻿## [4.0.66] - 19-Nov-2026 12:20 PM
+- **Bill Settlement Direct Navigation (Web `v1.8.1`):** Clicking **`Settle Due`** from Recent Bills now opens the dedicated **`Bill Settlement`** module with that invoice pre-selected in the Checkout Settlement Dock and its settlement history loaded (no browser `prompt()` dialog).
+- **Zero Chrome `prompt()` Dialogs (Web `v1.8.1`):** Replaced every remaining browser `prompt()` dialog (**Product Master Add/Edit**, **HSN/Brand/Tax/Location Masters**, **Credit Reminder Collect Due & Reschedule**, and **POS Quantity Entry**) with styled Apple Liquid-Glass modals.
+- **Full Master Print Setup & Company Logo Sync (`4.0.66` / Web `v1.8.1` / Android `v1.8.1` Build `11`):**
+  - Added 5-second throttled PostgreSQL cache refresh in `--mobile-server` (`CompanyProfileService`, `BillPrintLayoutService`, `PrinterConfigService`), custom company logo + `UIIconService.GetAppLogo()` PNG fallback in `/logo.png` & `print_profile.logo_base64`, offline `/qr.png` UPI QR endpoint, and `print_profile_sig` in heartbeat for automatic client resync.
+  - Upgraded Browser Web Print Studio and Party Voucher Receipts to reflect the active Server Master Company Logo, Layout toggles, accent color, paper size (`A4` / `A5` / `80MM` / `58MM` Thermal Roll), `@page` CSS rules, Amount in Words, and Silent Print.
+  - Updated Android `PdfReceiptEngine` (Thermal + Payment Receipt PDFs), `InvoiceReceiptDialog`, `StarPrefs` persistence, and heartbeat auto-resync so Server Company Logo and Printer Setup reflect automatically.
+
+## [4.0.65] - 19-Nov-2026 11:15 AM
 - **Separate 3 Server Ports:** Separated PostgreSQL Database (`62126`), Android Mobile API Bridge (`5088`), and Browser Web Client Portal (`5090` via `webclientport` in `config.ini`) with updated `StarPortConfig.exe` and `StarMaster.exe` port configurator controls, distinct-port validation, firewall rules, and HTTP checks.
 - **Browser Web Client `v1.8.0` Parity & Cleanup:** Removed `"Monitor Email ID & Web Client Preferences"` from Web Settings, excluded Browser Web sessions from Desktop Employee Monitor, renamed `"POS Billing"` to `"Inventory Billing"`, and added full Desktop-parity modules (**Customer Profile 360°** with Payment Receipt, **Supplier Profile 360°** with Payment Voucher, **Bill Settlement & History**, and **User Profile**).
 - **Conflict-Free Live Next Bill Number:** Added real-time `next_invoice_no` invalidation on save and live `/api/v1/invoices/next-no` polling on Web (`v1.8.0`) and Android (`v1.8.0` / Build 10).

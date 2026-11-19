@@ -1,11 +1,11 @@
 {
-  "version": "4.0.65",
-  "release_date": "19-Nov-2026 11:15 AM",
+  "version": "4.0.66",
+  "release_date": "19-Nov-2026 12:20 PM",
   "download_url": "https://raw.githubusercontent.com/advsajumon/StarSoft/main/StarSoft.exe",
-  "sha256": "dd26e852e19b4bff27b2285ee0d6a8a8f6e60facb2a1373d130cf5da6372fa34",
-  "file_size": 3265024,
-  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42NSIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDExOjE1IEFNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiJkZDI2ZTg1MmUxOWI0YmZmMjdiMjI4NWVlMGQ2YThhOGY2ZTYwZmFjYjJhMTM3M2QxMzBjZjVkYTYzNzJmYTM0IiwiZmlsZV9zaXplIjozMjY1MDI0fQ.Fl-CcYKJ2eVZdlZ-NY3C8bGcymLbnj5ElDnDNH43H9TVvCbvBBlkGZdrO72W3N9X_ggCsRNGVhEh6riTY-uGCQ",
-  "release_notes": "Star Soft Enterprise v4.0.65 Release Notes (19-Nov-2026 11:15 AM):\n- Separated DB (62126), Android API (5088), and Browser Web Client (5090) ports across StarSoft Server, StarPortConfig, and StarMaster.\n- Added Customer Profile (360° + Collect Payment Receipt), Supplier Profile (+ Pay Voucher), Bill Settlement (with History & Full Balance dock), and User Profile to Browser Web Client v1.8.0.\n- Removed Web Monitor Email settings card and excluded Browser Web clients from Desktop Employee Monitor.\n- Renamed POS Billing to Inventory Billing across Desktop, Web, and Android (v1.8.0 / Build 10).\n- Added conflict-free live Next Bill No sync and configurable per-platform Idle Auto-Close timeouts (default 5 mins).",
+  "sha256": "f29ed33806e7748ce9f2bdddc7c466ff9b4ff6c7865b88883373bcacdd1f1a28",
+  "file_size": 3320832,
+  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42NiIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDEyOjIwIFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiJmMjllZDMzODA2ZTc3NDhjZTlmMmJkZGRjN2M0NjZmZjliNGZmNmM3ODY1Yjg4ODgzMzczYmNhY2RkMWYxYTI4IiwiZmlsZV9zaXplIjozMzIwODMyfQ.dOJzBdLGLxL632XjSiG551vGoWLeZACW4BEwStcr3aq_OIKbi-ebf-bQMHe2OcHdxTrNwsvH2ZjF2y5SN-Q1Bg",
+  "release_notes": "Star Soft Enterprise v4.0.66 Release Notes (19-Nov-2026 12:20 PM):\n- Recent Bills 'Settle Due' in Browser Web Client v1.8.1 now opens the dedicated Bill Settlement module directly with the selected invoice & payment history loaded.\n- Eliminated all browser prompt() dialogs across Web Client v1.8.1 (Product Add/Edit, HSN/Brand/Tax/Location Masters, Credit Reminder Collect/Reschedule, and POS Item Quantity) using styled Apple Liquid-Glass modals.\n- Full Server Master Print Setup & Company Logo synchronization across Browser Web Client v1.8.1, Android v1.8.1 (Build 11), and --mobile-server (5-sec PostgreSQL refresh for company logo, print layouts, thermal 80mm/58mm / A4 / A5 format, offline UPI QR /qr.png, and heartbeat print_profile_sig auto-resync).",
   "channel": "Official Enterprise Stable",
   "manual_zip_url": ""
 }
