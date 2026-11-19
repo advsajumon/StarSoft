@@ -1,11 +1,11 @@
 {
-  "version": "4.0.67",
-  "release_date": "19-Nov-2026 01:30 PM",
+  "version": "4.0.68",
+  "release_date": "19-Nov-2026 02:00 PM",
   "download_url": "https://raw.githubusercontent.com/advsajumon/StarSoft/main/StarSoft.exe",
-  "sha256": "61a564a37c1a68c6a187e1bb16551c5c38c4ffca26bb6db8e2fd697c9edf744d",
-  "file_size": 3367936,
-  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42NyIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDAxOjMwIFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI2MWE1NjRhMzdjMWE2OGM2YTE4N2UxYmIxNjU1MWM1YzM4YzRmZmNhMjZiYjZkYjhlMmZkNjk3YzllZGY3NDRkIiwiZmlsZV9zaXplIjozMzY3OTM2fQ.zHD-7QN9fpG4kdPRsmeDPs28KHKXTOcJMSQhFnYGi8ONIkXhhyxfEmBecIXnv5BE0uTGqTR0r1StvRimSn03DQ",
-  "release_notes": "Star Soft Enterprise v4.0.67 Release Notes (19-Nov-2026 01:30 PM):\n- Browser Web Client v1.8.2 now mirrors Desktop Item Master 1:1: Auto Code & Barcode Gen + Printable Label preview, Smart Auto-HSN matching, Brand/Supplier/HSN Quick-Add, Include/Exclude GST live 5-column Breakdown, Serial/IMEI Manager (# S/N List) saved to API, and Active/Inactive status filter.\n- All modal popups across Browser Web Client v1.8.2 and Android v1.8.2 (Build 12) no longer close when tapping outside the modal backdrop (only via explicit Close/Cancel buttons).\n- Official Bill Settlement & Credit Reminder Receipts across Desktop .exe, Web v1.8.2, and Android v1.8.2 (Build 12): full & partial collections immediately open the Receipt Print/Share dialog and support Receipt reprinting from Settlement History.",
+  "sha256": "5761ca676fd49e5046bba003060e686781085067302609df76a09bbb800f9eaa",
+  "file_size": 3372544,
+  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42OCIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDAyOjAwIFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI1NzYxY2E2NzZmZDQ5ZTUwNDZiYmEwMDMwNjBlNjg2NzgxMDg1MDY3MzAyNjA5ZGY3NmEwOWJiYjgwMGY5ZWFhIiwiZmlsZV9zaXplIjozMzcyNTQ0fQ.MveS8DGLL516GYkaAxLNRbcjW5TROX3Oh_9WNqGOZ_vNxhUu9-OfzPAnf76I0P7McbEwakcQp4jStZ7HNUWtBg",
+  "release_notes": "Star Soft Enterprise v4.0.68 Release Notes (19-Nov-2026 02:00 PM):\n- Floating File Download Card now anchors cleanly right above Team Chat without edge clipping and auto-hides via Policy POL_DOWNLOAD_POPUP_SECONDS (default 8s, configurable 3-120s).\n- Manual standalone StarSoft.exe updates and CSV/Snapshot exports now download straight into Desktop\\StarSoft_Exports using the unified Download Card without interrupting dialogs.\n- Fixed Auto-Update close-without-relaunch race bug (on both Server and Client terminals) via detached --apply-update-wait parent PID exit sync, SingleInstance Mutex retry, and streaming cloud download progress.",
   "channel": "Official Enterprise Stable",
   "manual_zip_url": ""
 }

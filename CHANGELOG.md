@@ -1,4 +1,13 @@
-﻿## [4.0.67] - 19-Nov-2026 01:30 PM
+﻿## [4.0.68] - 19-Nov-2026 02:00 PM
+- **Floating Download Card Anchored Above Chat & Policy Timeout (`POL_DOWNLOAD_POPUP_SECONDS`):**
+  - Fixed DPI & edge clipping in `FileDownloadedDialog` (`AutoScaleMode.None`, inward screen clamp, flush right alignment) so the File Download popup always anchors cleanly inside the screen directly above the Team Chat widget / Chat popup (`InternalChatPopupForm`) and moves with it.
+  - Added Enterprise Policy **`POL_DOWNLOAD_POPUP_SECONDS`** (`PolicyService` & `PoliciesConfigForm`, default `8s`, configurable `3-120s` e.g. `5s` or `10s`) controlling automatic fade-out dismissal of downloaded/exported file notifications.
+- **Unified Desktop Folder Downloads (`Desktop\StarSoft_Exports`):**
+  - Eliminated blocking `SaveFileDialog` / external download prompts for manual standalone `StarSoft.exe` update downloads (`SoftwareUpdateForm`), Party Ledger CSV (`PartyMasterForm`), Audit History CSV (`UserHistoryForm`), SQL Query CSV (`SqlStudioForm`), and Remote/Android Screen snapshots (`VncViewerForm` / `AndroidScreenViewerForm`): all now save straight into `Desktop\StarSoft_Exports` with live progress & the bottom-right Download Card.
+- **Fixed Auto-Update & Server Restart Reliability (`UpdateService` & `Program.cs`):**
+  - Fixed the update close-without-relaunch race condition (where launching the new `StarSoft.exe` before the dying process released `StarSoft_SingleInstance_App_Mutex_2026` or stopped Server `--mobile-server` triggered immediate exit): added detached `--apply-update-wait <pid>` handoff waiting for full parent exit, Mutex acquisition retry, Server `--mobile-server` respawn guard (`IsRestartingForUpdate`), and streaming Cloud download progress (`10-95%`).
+
+## [4.0.67] - 19-Nov-2026 01:30 PM
 - **Desktop 1:1 Product / Item Master in Browser Web Client (`v1.8.2`):** Added complete Desktop `ItemMasterForm` feature parity: Auto Item Code & Barcode generation + Printable Barcode Label sticker preview, Category Tag + Auto-HSN matching, Brand/Supplier/HSN inline Quick-Add (`+`) modals, Include/Exclude GST condition toggle with live 5-column Tax Breakdown card (`Original Price`, `CGST`, `SGST`, `Total GST`, `Final Total`), **Track Serial / IMEI** with full **`# S/N List` Serial Numbers Manager** (scan/single add, bulk paste, live count, sold lock, saved via API), and Active/Inactive status toggle & filter.
 - **Popups Never Close on Outside Click (Web `v1.8.2` & Android `v1.8.2` Build `12`):** Removed backdrop outside-click closing on all modals across Browser Web Client and enforced `DialogProperties(dismissOnClickOutside = false)` across all Android dialogs so modals only close via explicit Close/Cancel buttons.
 - **Bill Settlement & Credit Collection Official Receipt Studio (`4.0.67` / Web `v1.8.2` / Android `v1.8.2` Build `12`):**
