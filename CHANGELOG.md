@@ -1,4 +1,13 @@
-﻿## [4.0.68] - 19-Nov-2026 02:00 PM
+﻿## [4.0.69] - 19-Nov-2026 02:30 PM
+- **Company Profile Print Header Condition & Web Print Glitch Fix (`4.0.69` / Web `v1.8.3`):**
+  - Eliminated the hardcoded fallback `"STAR BILLING ENTERPRISES / 123, Anna Salai..."` text in `CompanyProfile.InvoiceHeaderText` and `CompanySettingsForm` so unconfigured custom header lines never print unexpectedly beneath real Company Profile Master details on Browser Web or Desktop bills.
+  - Added database-backed condition **`Include Custom Header Text in Bill Print`** (`company_profile.show_invoice_header_on_print`, default `FALSE`) inside **Company Profile Master -> Print Header, Footer & Terms Settings**, synced to Browser Web (`print_profile.show_header_text`) and honored by both Desktop (`PrintService`) and Web (`StarWebApp.html`). Also ensured Web `NON_GST` bills never display `GSTIN` headers.
+- **Desktop Live Mobile Auto-Match Dropdown (`Auto-DB Match`) on All Billing Screens:**
+  - Added asynchronous live customer search popup (`Mobile / Auto-Match...`) inside `BillingForm` (covering **GST Billing**, **Non-GST Billing**, **Estimations**, **Dealer/Super Dealer**, and **POS Kiosk**), showing `Phone • Name`, `Place/Tier`, and color-coded `Due: ₹...` / `Adv: ₹...` / `No Due` badges with keyboard (`Up` / `Down` / `Enter` / `Escape`) and mouse click instant auto-fill.
+- **Web-Style Rounded Inputs & Crisp Vector Icons on Desktop Billing (Resolution-Safe):**
+  - Upgraded Desktop Billing inputs & checkout buttons via `UIIconService` (`AttachRoundedFieldPainting`, `StyleModernRoundedButton`, `DrawMiniUiIcon`, `SetCueBanner`) with subtle blue focus halos, crisp mini vector icons (Phone, User, Address Pin, Search), and clean rounded cards while strictly preserving `DisplayResolutionService` responsive scaling across all monitor sizes.
+
+## [4.0.68] - 19-Nov-2026 02:00 PM
 - **Floating Download Card Anchored Above Chat & Policy Timeout (`POL_DOWNLOAD_POPUP_SECONDS`):**
   - Fixed DPI & edge clipping in `FileDownloadedDialog` (`AutoScaleMode.None`, inward screen clamp, flush right alignment) so the File Download popup always anchors cleanly inside the screen directly above the Team Chat widget / Chat popup (`InternalChatPopupForm`) and moves with it.
   - Added Enterprise Policy **`POL_DOWNLOAD_POPUP_SECONDS`** (`PolicyService` & `PoliciesConfigForm`, default `8s`, configurable `3-120s` e.g. `5s` or `10s`) controlling automatic fade-out dismissal of downloaded/exported file notifications.

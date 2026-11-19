@@ -1,11 +1,11 @@
 {
-  "version": "4.0.68",
-  "release_date": "19-Nov-2026 02:00 PM",
+  "version": "4.0.69",
+  "release_date": "19-Nov-2026 02:30 PM",
   "download_url": "https://raw.githubusercontent.com/advsajumon/StarSoft/main/StarSoft.exe",
-  "sha256": "5761ca676fd49e5046bba003060e686781085067302609df76a09bbb800f9eaa",
-  "file_size": 3372544,
-  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42OCIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDAyOjAwIFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI1NzYxY2E2NzZmZDQ5ZTUwNDZiYmEwMDMwNjBlNjg2NzgxMDg1MDY3MzAyNjA5ZGY3NmEwOWJiYjgwMGY5ZWFhIiwiZmlsZV9zaXplIjozMzcyNTQ0fQ.MveS8DGLL516GYkaAxLNRbcjW5TROX3Oh_9WNqGOZ_vNxhUu9-OfzPAnf76I0P7McbEwakcQp4jStZ7HNUWtBg",
-  "release_notes": "Star Soft Enterprise v4.0.68 Release Notes (19-Nov-2026 02:00 PM):\n- Floating File Download Card now anchors cleanly right above Team Chat without edge clipping and auto-hides via Policy POL_DOWNLOAD_POPUP_SECONDS (default 8s, configurable 3-120s).\n- Manual standalone StarSoft.exe updates and CSV/Snapshot exports now download straight into Desktop\\StarSoft_Exports using the unified Download Card without interrupting dialogs.\n- Fixed Auto-Update close-without-relaunch race bug (on both Server and Client terminals) via detached --apply-update-wait parent PID exit sync, SingleInstance Mutex retry, and streaming cloud download progress.",
+  "sha256": "7cfe80e741f526ec09fbd9a4145fd4c6b975f2f8a249b2a6528b677acce98b5d",
+  "file_size": 3389952,
+  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42OSIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDAyOjMwIFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI3Y2ZlODBlNzQxZjUyNmVjMDlmYmQ5YTQxNDVmZDRjNmI5NzVmMmY4YTI0OWIyYTY1MjhiNjc3YWNjZTk4YjVkIiwiZmlsZV9zaXplIjozMzg5OTUyfQ.wLvPZ1Af2Cel8rhSgBFy7PFzfqmQq6GNsvZ8tjagUKWU3XPfJR_JFQGhFxtSjNElxUvjtWMdEPVDxzKADyOuCg",
+  "release_notes": "Star Soft Enterprise v4.0.69 Release Notes (19-Nov-2026 02:30 PM):\n- Fixed extra/unconfigured company text appearing on Browser Web Client (v1.8.3) bill printouts by removing the hardcoded Anna Salai fallback header, adding an opt-in 'Include Custom Header Text in Bill Print' condition in Company Profile Master (default OFF), and hiding GSTIN on Non-GST retail printouts.\n- Added live Mobile No (Auto-DB Match) dropdown popup across all Desktop Billing screens (GST, Non-GST, Estimations, Dealer/Super Dealer & Kiosk) showing Customer Name, Place/Tier & Balance Due badge with Up/Down/Enter/Click instant fill.\n- Upgraded Desktop Billing inputs & buttons with Web-style rounded capsules, focus blue rings, crisp mini vector icons (Phone, User, Address, Search) and native cue placeholders while strictly preserving DisplayResolutionService scaling across all screen resolutions.",
   "channel": "Official Enterprise Stable",
   "manual_zip_url": ""
 }
