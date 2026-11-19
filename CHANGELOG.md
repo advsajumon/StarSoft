@@ -1,4 +1,9 @@
-﻿## [4.0.63] - 19-Nov-2026 09:40 AM
+﻿## [4.0.64] - 19-Nov-2026 10:20 AM
+- Made Main Desktop `.exe` the complete Master Controller for every screen, menu, POS mode, dealer pricing, reprint, ledger, report, master catalog, theme/calculator, print layout, and settings action in both the **Browser Web Client (`v1.7.0`)** and **Android Mobile App (`v1.7.0` / Build 9)**.
+- Added `56` platform-specific Policies (`28` `POL_ANDROID_*` and `28` `POL_WEB_*`) and `56` granular User Privileges (`701..728` `[ANDROID]` and `801..828` `[WEB]`) with live server-side API + heartbeat policy enforcement (including Admin override when a platform policy is turned OFF).
+- Added color-coded platform identification in Desktop Policies (`PoliciesConfigForm`, `EditPolicyDialog`), User Management (`UserManagementForm`), Browser Web Client Settings, and Android App Policies/User Editor (**Emerald Green** for Android App, **Royal Blue** for Browser Web Client, **Slate** for Desktop).
+
+## [4.0.63] - 19-Nov-2026 09:40 AM
 - Upgraded Browser Web Client POS Billing to match Main Desktop `.exe` layout 1:1 (removed static product cards, placed Mobile No first with live database auto-fill for Customer Name, Address, GSTIN & Tier, floating barcode/item autocomplete dropdown on demand, 13-column Desktop invoice grid, and Right Summary & Checkout Dock), added collapsible Left Sidebar toggle (`Hide Menu` / `Show Menu` + `[Alt+S]`), enhanced `SearchPartiesSmart` customer lookup, and modernized the Enterprise Glass UI.
 
 ## [4.0.62] - 18-Nov-2026 05:10 PM
