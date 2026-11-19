@@ -1,11 +1,11 @@
 {
-  "version": "4.0.62",
-  "release_date": "18-Nov-2026 05:10 PM",
+  "version": "4.0.63",
+  "release_date": "19-Nov-2026 09:40 AM",
   "download_url": "https://raw.githubusercontent.com/advsajumon/StarSoft/main/StarSoft.exe",
-  "sha256": "fea09711eb9c4b7dd85137d10653ede1af90098427162afbbb77039c64da043f",
-  "file_size": 3110400,
-  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42MiIsInJlbGVhc2VfZGF0ZSI6IjE4LU5vdi0yMDI2IDA1OjEwIFBNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiJmZWEwOTcxMWViOWM0YjdkZDg1MTM3ZDEwNjUzZWRlMWFmOTAwOTg0MjcxNjJhZmJiYjc3MDM5YzY0ZGEwNDNmIiwiZmlsZV9zaXplIjozMTEwNDAwfQ.i2skIKC9Pu0N52S2NrCY74M4rous3D-sz6JZ6NYjNJ0XbLG2fXWiKqaKCQuSwOkgmNh77amUuiajZRgd88SsDw",
-  "release_notes": "Star Soft Enterprise v4.0.62 Release Notes (18-Nov-2026 05:10 PM):\n- Fixed Browser Web Client login fetch() RequestInit headers ISO-8859-1 error by sanitizing all X-Star-Device-* and Authorization headers to pure ASCII and exposing window.STATE for inline UI handlers.",
+  "sha256": "78e21fdbc9a289a86e4eb2cfca8e67642a93ed65d7cb4fa687c9fbdab1d33fd4",
+  "file_size": 3158016,
+  "manifest_sig": "STARREL1.eyJ2IjoxLCJ0eXAiOiJSRUxFQVNFIiwidmVyc2lvbiI6IjQuMC42MyIsInJlbGVhc2VfZGF0ZSI6IjE5LU5vdi0yMDI2IDA5OjQwIEFNIiwiZG93bmxvYWRfdXJsIjoiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FkdnNhanVtb24vU3RhclNvZnQvbWFpbi9TdGFyU29mdC5leGUiLCJzaGEyNTYiOiI3OGUyMWZkYmM5YTI4OWE4NmU0ZWIyY2ZjYThlNjc2NDJhOTNlZDY1ZDdjYjRmYTY4N2M5ZmJkYWIxZDMzZmQ0IiwiZmlsZV9zaXplIjozMTU4MDE2fQ.R7qrsWyBnqFMH9aNvTgAmJDqYuORi5VLniM8xMjQjW6sAkTk5XtLq-98hvPKZ-PevZfwdOOedpYSnMBad8URAw",
+  "release_notes": "Star Soft Enterprise v4.0.63 Release Notes (19-Nov-2026 09:40 AM):\n- Upgraded Browser Web Client POS Billing to match Main Desktop .exe layout 1:1 (removed static product grid, placed Mobile No first with live DB auto-fill for Name/Address/GSTIN/Tier, floating barcode/item autocomplete on demand, 13-column Desktop invoice grid, and Right Summary & Checkout Dock), added collapsible Left Sidebar toggle, and modernized Enterprise Glass UI.",
   "channel": "Official Enterprise Stable",
   "manual_zip_url": ""
 }

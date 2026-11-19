@@ -1,4 +1,7 @@
-﻿## [4.0.62] - 18-Nov-2026 05:10 PM
+﻿## [4.0.63] - 19-Nov-2026 09:40 AM
+- Upgraded Browser Web Client POS Billing to match Main Desktop `.exe` layout 1:1 (removed static product cards, placed Mobile No first with live database auto-fill for Customer Name, Address, GSTIN & Tier, floating barcode/item autocomplete dropdown on demand, 13-column Desktop invoice grid, and Right Summary & Checkout Dock), added collapsible Left Sidebar toggle (`Hide Menu` / `Show Menu` + `[Alt+S]`), enhanced `SearchPartiesSmart` customer lookup, and modernized the Enterprise Glass UI.
+
+## [4.0.62] - 18-Nov-2026 05:10 PM
 - Fixed Browser Web Client login `fetch()` `RequestInit.headers` non-ISO-8859-1 error by replacing Unicode bullet `•` in `X-Star-Device-Os` with ASCII `-`, adding an `asciiHdr()` sanitizer across all `X-Star-*` HTTP headers, and exposing `window.STATE` and `window.selectRepCat` for inline UI handlers.
 
 ## [4.0.61] - 18-Nov-2026 04:45 PM
