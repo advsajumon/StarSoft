@@ -1,4 +1,13 @@
-﻿## [4.0.69] - 19-Nov-2026 02:30 PM
+﻿## [4.0.70] - 21-Nov-2026 03:43 PM
+- Fixed fresh PostgreSQL schema initialization/pgAdmin error (ERROR: relation "users" does not exist SQL state 42P01) by topologically creating users before internal_chat_messages & audit_logs and fixing statement-comment splitting in Universal Installer.
+- Fixed StarBackup Enterprise Exit code 1 failure by auto-syncing live host/port (e.g. 62126) & AES credentials from C:\StarSoft\config.ini, properly flushing async pg_dump stderr/stdout streams, and eliminating stale port 5432/empty password overrides.
+- Eliminated forced hardcoded backup destination paths: DB connection/pg_dump are auto-detected, while all backup storage folders are explicitly selected/input by the user.
+- Added Google Drive & Cloud Auto-Sync to StarBackup Enterprise supporting both direct Google Account OAuth 2.0 Sign-In (Drive REST v3 Resumable Upload) and Google Drive Desktop (G:\) mirror folder sync.
+- Upgraded StarBackup Enterprise UI to PerMonitorV2 High-DPI, resizable layout, customizable themes, and repaired multi-DPI app.ico so System Tray shows crisp rainbow StarSoft logo.
+- Fixed StarBackup_Setup & StarSoft_Setup installation lock errors by cleanly terminating running StarBackup processes and handling locked executables safely.
+- Introduced brand-new Star Backup Restore Tool (standalone StarBackupRestore.exe + embedded directly inside Master Tool StarMaster.exe, StarBackup.exe, and StarSoft.exe): restores StarSoft .backup/.sql archives AND inspects/maps/transforms legacy software backups (.sql, .csv, .xlsx, .json, .xml) into StarSoft PostgreSQL with Pre-Restore Safety Snapshots.
+
+## [4.0.69] - 19-Nov-2026 02:30 PM
 - **Company Profile Print Header Condition & Web Print Glitch Fix (`4.0.69` / Web `v1.8.3`):**
   - Eliminated the hardcoded fallback `"STAR BILLING ENTERPRISES / 123, Anna Salai..."` text in `CompanyProfile.InvoiceHeaderText` and `CompanySettingsForm` so unconfigured custom header lines never print unexpectedly beneath real Company Profile Master details on Browser Web or Desktop bills.
   - Added database-backed condition **`Include Custom Header Text in Bill Print`** (`company_profile.show_invoice_header_on_print`, default `FALSE`) inside **Company Profile Master -> Print Header, Footer & Terms Settings**, synced to Browser Web (`print_profile.show_header_text`) and honored by both Desktop (`PrintService`) and Web (`StarWebApp.html`). Also ensured Web `NON_GST` bills never display `GSTIN` headers.
